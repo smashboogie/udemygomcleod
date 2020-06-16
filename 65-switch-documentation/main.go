@@ -1,6 +1,7 @@
 /*
 keyword - switch
 https://golang.org/ref/spec#Switch_statements
+https://golang.org/doc/effective_go.html#switch
 
 "Switch" statements provide multi-way execution. An expression or type specifier is compared to the "cases" inside the "switch" to determine which branch to execute.
 There are two forms: expression switches and type switches. In an expression switch, the cases contain expressions that are compared against the value of the switch expression

@@ -27,10 +27,9 @@ func main() {
 	if 2 == 2 {
 		fmt.Println("005")
 	}
-	//initionalization statement =  (;)
+	//initionalization statement inside an IF statment =  (;)
+	//x variable below is limited in scope (to IF) to avoid clashing elesewhere
 	if x := 42; x == 42 {
 		fmt.Println("006")
 	}
-	fmt.Println("here's a statment")
-	fmt.Println("something else")
 }
