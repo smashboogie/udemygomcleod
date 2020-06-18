@@ -3,6 +3,9 @@
 //assign VALUES to each index position
 //Range over the array and print the values out.
 //Using format printing - print out the TYPE of the array
+//difference between array and slice format
+// array [5]int{}
+// slice []int{}
 
 package main
 
