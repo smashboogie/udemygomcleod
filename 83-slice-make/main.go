@@ -26,7 +26,7 @@ func main() {
 	fmt.Println(x)
 	fmt.Println(len(x))
 	fmt.Println(cap(x))
-	//below will append one more value than the initial capacity
+	//below will append one more value than the initial array capacity (of 12)
 	//it will process that and double the capacity (from 12 to 24)
 	x = append(x, 3425)
 	fmt.Println(x)

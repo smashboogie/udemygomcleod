@@ -9,7 +9,7 @@ import (
 
 func main() {
 	//Composite Literal below
-	x := []int{4, 5, 6, 7, 8, 42}
+	x := []int{4, 5, 7, 8, 42}
 	fmt.Println(x)
 }
 
